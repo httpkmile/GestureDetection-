@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables (Sensitive)
+.env
+.env.local
+.env.*
+
+# Data & Models (Optional but recommended to keep repo light)
+data/*.csv
+models/*.pkl
+models/*.task
+models/*.tflite
