@@ -13,6 +13,7 @@ wheels/
 .env
 .env.local
 .env.*
+!.env.example
 
 # Data & Models (Optional but recommended to keep repo light)
 data/*.csv
